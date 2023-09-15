@@ -6,7 +6,7 @@
 
 ### \*Updated 05/02/2023
 
-### Fully functioning chess game made in python! GUI made using Tkinter. In this program you are able to play chess either singleplayer or online. Note: in order to play online, you must run and connect to Server.py, which is included in this repository.
+### Fully functioning chess game made in python! This game was created as a group project for network computing grad course. In this project we had to use socket programming. The GUI was made using Tkinter. In this program you are able to play chess either singleplayer or online. Note: in order to play online, you must run and connect to Server.py, which is included in this repository.
 
 ### An important note: The GUI does not currently work as expected on Mac OS systems. The program has been fully tested and developed for windows machines.
 
