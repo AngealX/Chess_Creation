@@ -6,19 +6,19 @@
 
 ### \*Updated 05/02/2023
 
-### Fully functioning chess game made in python! This game was created as a group project for network computing grad course. In this project we had to use socket programming. The GUI was made using Tkinter. In this program you are able to play chess either singleplayer or online. Note: in order to play online, you must run and connect to Server.py, which is included in this repository.
+### Fully functioning chess game made in Python! This game was created as a group project for our network computing grad course final project. In this project, we had to use socket programming, and we decided to go with Python due to everyone in the group being familiar with Python, especially our lead programmer (Ben Platt). The GUI was made using Tkinter. In this program, you are able to play chess either single-player or online. Note: in order to play online, you must run and connect to Server.py, which is included in this repository.
 
-### An important note: The GUI does not currently work as expected on Mac OS systems. The program has been fully tested and developed for windows machines.
+### An important note: The GUI does not currently work as expected on Mac OS systems. The program has been fully tested and developed for Windows machines.
 
 ## REQUIREMENTS TO RUN:
 
-### Operating System --> Only works as expected on WINDOWS 10 MACHINES (no Windows 11, mac, linux, etc.)
+### Operating System --> Only works as expected on WINDOWS 10 MACHINES (no Windows 11, Mac, Linux, etc.)
 
-### Network Requirements --> May need to setup port forwarding on your router to support incoming connections to server.py. To do this, access your router's administration settings forward to the hosts IP address and desired port. May also need to create an inbound rule in Windows Firewall settings to support inbound TCP connections on the desired port.
+### Network Requirements --> May need to set up port forwarding on your router to support incoming connections to server.py. To do this, access your router's administration settings forward to the host's IP address and desired port. May also need to create an inbound rule in Windows Firewall settings to support inbound TCP connections on the desired port.
 
 ### Extensions -->
 
-#### GUI - Depending on python version, may not need to separately install tkinter:
+#### GUI - Depending on Python version, may not need to separately install Tkinter:
 
 #### --pip install tk
 
@@ -52,13 +52,13 @@
 
 ## Singleplayer Specific Instructions
 
-1). There is no need to run Server.py in order to play the game in singleplayer mode. Simply reply "N" when the program asks you if you would like to play online.
+1). There is no need to run Server.py in order to play the game in single-player mode. Simply reply "N" when the program asks you if you would like to play online.
 
 2). The GUI will launch itself after stating "N" in upper or lower case.
 
 ## General Game Instructions:
 
-#### This game was created using an array of 64 buttons that were placed and labeled to look and feel exactly like a chess board.
+#### This game was created using an array of 64 buttons that were placed and labeled to look and feel exactly like a chessboard.
 
 #### -white pieces move first, then black
 
@@ -72,7 +72,7 @@
 
 #### -If no legal move can be found, then the team currently in check has been mated and loses.
 
-## Features not included (for simplicities sake):
+## Features not included (for simplicity sake):
 
 #### -En passant move for pawns
 
@@ -80,7 +80,7 @@
 
 #### -Checkmate (Although you should quickly figure out if you are in checkmate. The game won't let you proceed)
 
-#### -Restart game (Since no end of game conditions are included)
+#### -Restart game (Since no end-of-game conditions are included)
 
 ## Game Demonstration
 
